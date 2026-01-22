@@ -1,0 +1,16 @@
+main{
+  min-height: 80vh;
+  background-color: white;
+}
+
+.brand-text {
+  color: #FFFFFF!important;
+}
+
+.main-text {
+  color: #000000!important;
+}
+
+.dropdown-toggle {
+  color: white !important;
+}

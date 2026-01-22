@@ -1,0 +1,45 @@
+.nav-desktop {
+  color: #ffffff !important;
+  font-weight: normal !important;
+}
+
+.nav-desktop .dropdown-item {
+  color: #800000ff !important;
+}
+
+.navbar .dropdown-toggle::after {
+  border-top-color: #ffffff !important;
+}
+
+.mobile-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  z-index: 1050;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-x {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  background: none; 
+  border: none;   
+  color: #800000ff; 
+  padding: 0;
+  line-height: 1;
+}
+
+.mobile-menu .nav-link {
+  color: #800000ff !important;
+  font-size: 2rem;
+  margin: 1rem 0;
+  font-weight: bold;
+}
